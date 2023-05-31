@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.businesscardapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_family"
+        android:name="com.example.businesscardapp.ui.groups.family.FamilyFragment"
+        android:label="@string/menu_family"
+        tools:layout="@layout/fragment_family" >
+        <argument
+            android:name="groupId"
+            app:argType="string"
+            android:defaultValue="family" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_school"
+        android:name="com.example.businesscardapp.ui.groups.school.SchoolFragment"
+        android:label="@string/menu_school"
+        tools:layout="@layout/fragment_school" >
+        <argument
+            android:name="groupId"
+            app:argType="string"
+            android:defaultValue="school" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_social"
+        android:name="com.example.businesscardapp.ui.groups.social.SocialFragment"
+        android:label="@string/menu_social_media"
+        tools:layout="@layout/fragment_social" >
+        <argument
+            android:name="groupId"
+            app:argType="string"
+            android:defaultValue="social" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_work"
+        android:name="com.example.businesscardapp.ui.groups.work.WorkFragment"
+        android:label="@string/menu_work"
+        tools:layout="@layout/fragment_work" >
+        <argument
+            android:name="groupId"
+            app:argType="string"
+            android:defaultValue="work" />
+    </fragment>
+
+
+</navigation>

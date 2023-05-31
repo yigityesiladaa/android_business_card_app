@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:fontFamily="@font/inter_regular"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/baseline_family_restroom_24"
+            android:fontFamily="@font/inter_regular"
+            android:title="@string/menu_family" />
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/baseline_school_24"
+            android:fontFamily="@font/inter_regular"
+            android:title="@string/menu_school" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/baseline_phone_android_24"
+            android:fontFamily="@font/inter_regular"
+            android:title="@string/menu_social_media" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/baseline_work_24"
+            android:fontFamily="@font/inter_regular"
+            android:title="@string/menu_work" />
+    </group>
+</menu>

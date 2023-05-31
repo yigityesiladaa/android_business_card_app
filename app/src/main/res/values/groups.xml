@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="groups">
+        <item>family</item>
+        <item>school</item>
+        <item>social</item>
+        <item>work</item>
+    </string-array>
+</resources>

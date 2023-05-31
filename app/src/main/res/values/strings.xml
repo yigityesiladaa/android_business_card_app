@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BusinessCardApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Your Name</string>
+    <string name="nav_header_subtitle">example@mail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nothing_to_show_yet_text">Nothing To Show Yet</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_family">Family</string>
+    <string name="menu_school">School</string>
+    <string name="menu_work">Work</string>
+    <string name="menu_social_media">Social</string>
+
+    <string name="contact_info_text">Contact</string>
+    <string name="person_address_text">Address</string>
+    <string name="person_first_name_text">Name</string>
+    <string name="person_last_name_text">Surname</string>
+    <string name="person_mail_text">E-Mail</string>
+    <string name="person_phone_text">Phone</string>
+    <string name="person_group_text">Group</string>
+
+    <string name="search_text">Search</string>
+    <string name="delete_text">Delete</string>
+    <string name="save_text">Save</string>
+    <string name="edit_text">Edit</string>
+    <string name="update_text">Update</string>
+    <string name="cancel_text">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
