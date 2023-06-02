@@ -1,5 +1,5 @@
 # Business Card App
-A mobile application where you can add, manage and group business cards
+A mobile application developed within the scope of Turkcell Kotlin Bootcamp, where you can add, manage and group business cards.
 
 ## Tools Used in the Application
 
